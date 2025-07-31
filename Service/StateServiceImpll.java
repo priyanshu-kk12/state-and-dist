@@ -23,7 +23,7 @@ public class StateServiceImpll implements StateServiceee {
 		ServiceOutcome<Statee> outcome=new ServiceOutcome<Statee>();
 
 		Statee statee=new Statee();
-		System.out.println(stateDto.getStateid());
+		System.out.println(stateDto.getStateid()+"Student State id");
 		if(stateDto.getStateid()!=null)
 		{
 			statee.setStateid(stateDto.getStateid());
